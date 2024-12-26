@@ -1,0 +1,82 @@
+body{
+    padding: 0;margin: 0;
+}
+.mani{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.video-bg{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+.mani-text{
+    position: absolute;
+    z-index: 99999;
+    margin: auto;
+}
+ .title{
+    display: block;
+    font-size: 45px;
+    color: rgb(255, 127, 127);
+    text-align: center;
+}
+.login{
+    display: inline-block;
+    width: 280px;
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(0, 255, 255);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    margin: 50px  80px 0 0  ;
+}
+.register{
+    display: inline-block;
+    width: 280px;
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(0, 255, 0);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    margin: 50px 0 0 80px;
+    top: 0px;
+}
+.login-btn{
+    display: inline-block;
+    width: 100%;   
+    height: 350px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+}
+.register-btn{
+    display: inline-block;
+    width: 100%;   
+    height: 350px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 0px 0px 10px 10px;
+}
+.loginname,.loginpassword,.registername,.registerpassword{
+    height: 28px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+}
+.loginGO,.registerGO{
+    width: 64px;
+    height: 40px;
+    background-color: yellow;
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(255, 127, 127);
+}

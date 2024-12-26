@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="./css/indexstyle.css">
+</head>
+<body>
+    <div class="mani">
+        <div class="mani-text">
+            <span class="title">welcome to my  wallpaper</span>
+           <span class="login">login
+            <div class="login-btn">     
+                <form id="loginForm">
+                     <p class="login-name">username: <input type="text"  class="loginname" id="loginUsername"><br></p>  
+                    <p class="login-password">password: <input type="password" class="loginpassword" id="loginPassword"><br></p>
+                    <button class="loginGO">Go on</button>   
+                </form>     
+                 
+            </div>
+           </span>
+           <span class="register">sign in
+            <div class="register-btn">      
+                <form id="registerForm">
+                     <p class="register-name">username: <input type="text" class="registername" id="username"><br></p>  
+                      <p class="register-password">password: <input type="password" class="registerpassword" id="password"><br></p>
+                      <button class="registerGO" type="submit" >Go on</button>
+                </form>    
+            </div>
+           </span>
+        </div>
+        <video class="video-bg" src="./video/v1gtq6cu4hc4wahg4yiiskspityx.mp4" autoplay loop muted></video>
+    </div>
+</body>
+<script src="./script/indexscript.js"></script>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="../static/style/indexstyle.css">
+</head>
+<body>
+    <div class="mani">
+        <div class="mani-text">
+            <span class="title">Welcome to My Wallpaper Library</span>
+           <span class="login">login
+            <div class="login-btn">     
+                <form action="/login" method="POST">
+                     <p class="login-name">username: <input type="text"  class="loginname" id="username" name="username" required><br></p>  
+                    <p class="login-password">password: <input type="password" class="loginpassword" id="password" name="password" required><br></p>
+                    <button class="loginGO">Go on</button>   
+                </form>     
+            </div>
+           </span>
+           <span class="register">sign in
+            <div class="register-btn">      
+                <form action="/register" method="POST">
+                     <p class="register-name">username: <input type="text" class="registername" id="username" name="username" required><br></p>  
+                      <p class="register-password">password: <input type="password" class="registerpassword" id="password" name="password" required><br></p>
+                      <button class="registerGO" type="submit" >Go on</button>
+                </form>    
+            </div>
+           </span>
+        </div>
+        <video class="video-bg" src="../static/Wallpaper Library/v1gtq6cu4hc4wahg4yiiskspityx.mp4" autoplay loop muted></video>
+    </div>
+
+    <!-- <script src="../static/script/indexscript.js"></script> -->
+</body>
+</html>
